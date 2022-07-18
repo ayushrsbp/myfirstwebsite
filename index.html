@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kshitiz Book Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="1024.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&family=Splash&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Roboto+Mono:ital,wght@1,700&family=Splash&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpg" alt="Book shop">
+        </div>
+        <div id="sections">
+            <ul>
+                <li><a href="#homepage">About</a></li>
+                <li><a href="#best_selling_book">Best selling Books</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+                <li><a href="#review">Reviews</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- homepage -->
+
+    <section id="homepage">
+        <div id="pic">
+            <img src="shop12.jpg" alt="">
+        </div>
+        <div id="intro">
+            <h1>The best companion of all is a book...</h1>
+            <p id="shopname">Book Shop</p>
+            <p id="note">Welcome to India's best book shop...</p>
+            <button id="btn_best_s_books"><a href="#best_selling_book">Best Selling Books</a></button>
+        </div>
+    </section>
+
+    <!-- Best selling Books -->
+
+    <section id="best_selling_book">
+        <div id="heading">
+            <h1 id="title">Best Selling Books</h1>
+        </div>
+        <h3 id="subtitle">Litreature</h3>
+        <div id="cards">
+            <div class="card" id="card1">
+                <img class="c_img" src="book.jpg" alt=""><br>
+                <h3 class="b_name">Atomic Habits</h3>
+                <button id="s_btn"><a href="golmal h">Add+</a></button><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <button id="knowmore"><a href="golmal h">Know more</a></button>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card2">
+                <img class="c_img" src="book.jpg" alt=""><br>
+                <h3 class="b_name">Atomic Habits</h3>
+                <button id="s_btn"><a href="golmal h">Add+</a></button><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card3">
+                <img class="c_img" src="book.jpg" alt=""><br>
+                <h3 class="b_name">Atomic Habits</h3>
+                <button id="s_btn"><a href="golmal h">Add+</a></button><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card5"><br>
+                <img class="c_img" src="book.jpg" alt=""><br>
+                <h3 class="b_name">Atomic Habits</h3>
+                <button id="s_btn"><a href="golmal h">Add+</a></button><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p>
+                <p class="price">Price...Rs.250</p>
+            </div>
+        </div>
+        <h3 id="subtitle">Self Growth</h3>
+        <div id="cards">
+            <div class="card" id="card1">
+                <img class="c_img" src="book.jpg" alt=""><br>
+                <h3 class="b_name">Atomic Habits</h3>
+                <button id="s_btn"><a href="golmal h">Add+</a></button><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card2">
+                <img class="c_img" src="book.jpg" alt=""><br>
+                <h3 class="b_name">Atomic Habits</h3>
+                <button id="s_btn"><a href="golmal h">Add+</a></button><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card3">
+                <img class="c_img" src="book.jpg" alt=""><br>
+                <h3 class="b_name">Atomic Habits</h3>
+                <button id="s_btn"><a href="golmal h">Add+</a></button><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card5"><br>
+                <img class="c_img" src="book.jpg" alt=""><br>
+                <h3 class="b_name">Atomic Habits</h3>
+                <button id="s_btn"><a href="golmal h">Add+</a></button><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p>
+                <p class="price">Price...Rs.250</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommended Books -->
+
+    <section id="recommendations">
+        <h1 id="title">Recommended Books</h1>
+        <div id="searchbar">
+            <input type="text" placeholder="Search..." id="search">
+        <button id="sbtn">
+            <img src="search.jpg" alt="">
+        </button>
+        </div>
+        <div id="cards">
+            <div class="card" id="card1">
+                <img class="c_img" src="book.jpg" alt=""><BR></BR>
+                <h3 class="b_name">Atomic Habits</h3><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card2">
+                <img class="c_img" src="book.jpg" alt=""><BR></BR>
+                <h3 class="b_name">Atomic Habits</h3><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card3">
+                <img class="c_img" src="book.jpg" alt=""><BR></BR>
+                <h3 class="b_name">Atomic Habits</h3><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card5"><br>
+                <img class="c_img" src="book.jpg" alt=""><BR></BR>
+                <h3 class="b_name">Atomic Habits</h3><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card3">
+                <img class="c_img" src="book.jpg" alt=""><BR></BR>
+                <h3 class="b_name">Atomic Habits</h3><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p><br>
+                <p class="price">Price...Rs.250</p>
+            </div>
+            <div class="card" id="card5"><br>
+                <img class="c_img" src="book.jpg" alt=""><BR></BR>
+                <h3 class="b_name">Atomic Habits</h3><br>
+                <p class="b_detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p>
+                <p class="price">Price...Rs.250</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review section -->
+
+    <section id="review">
+        <h1 id="title">Our Customers Review</h1>
+        <div id="cards">
+            <div class="card" id="card1">
+                <img src="people.jpg" alt="">
+                <h3>Helina</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p>
+            </div>
+            <div class="card" id="card2">
+                <img src="people.jpg" alt="">
+                <h3>Ishaka</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p>
+            </div>
+            <div class="card" id="card3">
+                <img src="people.jpg" alt="">
+                <h3>Sunidhi</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, id?</p>
+            </div>
+        </div>
+    </section>
+    <!-- Review form -->
+    <img src="ct." alt="">
+    <section id="review_form">
+        <h1 id="title">Customer Review Form</h1>
+        <div>
+            <form id="form" action="backend.php">
+                <div class="content" id="introd">
+                    Your review helps us to improve our services. Please, drop your review here...
+                </div>
+                <div class="content" id="content1">
+                    <label for="name">Name:</label><br>
+                    <input class="input" type="text" name="name" id="name" placeholder="Enter your name...">
+                </div>
+                <div class="content" id="content5">
+                    <label for="phone">Mobile no.</label><br>
+                    <input class="input" type="tel" name="phone" id="phone" placeholder="Enter your mobile no...">
+                </div>
+                <div class="content" id="content2">
+                    <label for="email">Email:</label><br>
+                    <input class="input" type="email" name="email" id="email" placeholder="Enter your email...">
+                </div>
+                <div class="content" id="content3">
+                    <label for="b_name">Book Name:</label><br>
+                    <input class="input" type="text" name="b_name" id="b_name" placeholder="Enter book name">
+                </div>
+                <div class="content" id="content4">
+                    <label for="review">Review:</label><br>
+                    <textarea class="input" name="review" id="review" cols="30" rows="10"
+                        placeholder="Drop your review here..."></textarea>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="s_m_links">
+            <a href="https://www.facebook.com/apnaayus/" class="s_m_links" id="fb" target="_blank"><img src="fb.png"></a>
+            <a href="https://www.instagram.com/ayushrajsbp/" class="s_m_links" id="insta" target="_blank"><img src="insta.jpg"></a>
+            <a href="https://www.twitter.com/ayushrajsbp" class="s_m_links" id="twitter" target="_blank"><img src="twitter.png"></a>
+            <a href="https://www.linkedin.com/in/ayush-raj-6731a222a/" class="s_m_links" id="linkedin" target="_blank"><img src="linkedin.jpg"></a>
+        </div>
+        <div id="implinks">
+            <a href="#" target="_blank">Terms and Conditions</a>
+            <a href="#" target="_blank">privacy Policy</a>
+            <a href="#" target="_blank">Copyright</a>
+        </div>
+    </footer>
+    <div id="back_to_top">
+        <a href="#homepage"><img src="back_to_top1.png" alt=""></a>
+    </div>
+</body>
+
+</html>

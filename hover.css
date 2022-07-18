@@ -1,0 +1,56 @@
+#navbar li:hover{
+    background-color: green;
+    border-radius: 12px;
+}
+#navbar li a:hover,#btn_best_s_books a:hover{
+    color: white;
+}
+#navbar li a:active,#btn_best_s_books a:active{
+    color: red;
+}
+#btn_best_s_books:hover{
+    background-color: green;
+    border: 3px solid blue;
+}
+.card:hover ,#form:hover{
+    border: 2px solid blue;
+    /* max-width: 17em;
+    height: 27em; */
+    /* max-width: 6.3em;
+    height: 10.5em; */
+}
+#s_btn:hover{
+    border: 2px solid red;
+}
+#knowmore:hover{
+    visibility: visible;
+}
+#search:hover, .input:hover{
+    border: 2px solid green;
+    /* color: transparent; */
+}
+#submit input:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+#implinks a:hover{
+color: green;
+}
+#implinks a:active{
+    color: red;
+    }
+/* .pbtn:hover{
+background-color: black;
+border: 2px solid white;
+}
+.pbtn a:hover{
+    color: white;
+}
+.pbtn:active{
+    background-color: rgb(61, 58, 58);
+}
+.skill_card:hover{
+    border: 2px solid red;
+    background-color: rgb(223, 170, 73);
+} */
